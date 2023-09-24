@@ -1,0 +1,88 @@
+name: glaze_credit_app
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_native_splash: ^2.3.2
+  get: ^4.6.5
+  liquid_swipe: ^3.0.0
+  smooth_page_indicator: ^1.0.0+2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter_native_splash:
+  color: "#f7f6f1"
+  color_dark: "#222222"
+  image: assets/img/logos/glaze_credit_horizontal.png
+  image_dark: assets/img/logos/glaze_credit_horizontal.png
+
+  android_12:
+    icon_background_color: "#f7f6f1"
+    icon_background_color_dark: "#222222"
+    image: assets/img/logos/glaze_credit_horizontal.png
+    image_dark: assets/img/logos/glaze_credit_horizontal.png
+
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/img/logos/
+    - assets/img/ads/
+    - assets/img/errors/
+    - assets/img/welcome/
+    
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 800
+        - asset: assets/fonts/Roboto-BoldItalic.ttf
+          style: italic
+          weight: 800
+        - asset: assets/fonts/Roboto-MediumItalic.ttf
+          style: italic
+          weight: 600
+    
+    - family: Roboto-Black
+      fonts:
+        - asset: assets/fonts/Roboto-Black.ttf
+        - asset: assets/fonts/Roboto-BlackItalic.ttf
+          style: italic
+
+    - family: Roboto-Bold
+      fonts:
+        - asset: assets/fonts/Roboto-Bold.ttf
+        - asset: assets/fonts/Roboto-BoldItalic.ttf
+          style: italic
+
+    - family: Roboto-Thin
+      fonts:
+        - asset: assets/fonts/Roboto-Thin.ttf
+        - asset: assets/fonts/Roboto-ThinItalic.ttf
+          style: italic
+          weight: 500
+    
+  #  - family: Trajan Pro
+  #    fonts:
+  #      - asset: fonts/TrajanPro.ttf
+  #      - asset: fonts/TrajanPro_Bold.ttf
+  #        weight: 700
+  #
